@@ -1,0 +1,10 @@
+body{
+    margin:40px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background:url("/week1/KakaoTalk_20190316_180504051.jpg") no-repeat;
+    background-size: 100%;
+    padding:40px;
+}
