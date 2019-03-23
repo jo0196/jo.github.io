@@ -14,3 +14,12 @@ a.menu{
     background:url('aaaa.jpg') no-repeat;
     display: inline-block;
 }
+
+body{
+     margin: auto;
+    max-width: 1000px;
+    min-height: 900px;
+    border: 2px dotted gray;
+    padding: 20px;
+    margin-top: 3%;
+}
