@@ -15,12 +15,11 @@ a.menu{
     display: inline-block;
 }
 
-p{
-    background-color:whitesmoke;
+#introduce{
+    background-color:rgb(239, 241, 78);
     margin: auto;
-    max-width: 1000px;
-    min-height: 900px;
-    border: 3px dotted red;
+    height: 120px;
+    border: 3px dotted black;
     padding: 20px;
     margin-top: 3%;
 }
