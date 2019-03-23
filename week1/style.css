@@ -1,0 +1,60 @@
+body{
+    margin:40px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background:url("KakaoTalk_20190316_180504051.jpg") no-repeat;
+    background-size: 100%;
+    padding:40px;
+}
+
+#menu{
+    width:100%;
+    padding:20px;
+    border:3px solid rgb(37, 12, 12);
+    background-color:whitesmoke;
+    text-transform:uppercase;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+h1{
+    color:rgb(35, 204, 86);
+}
+
+
+#menu:hover{
+    background-color: rgb(131, 206, 250);
+    border:3px solid rgb(131, 206, 250);
+}
+
+#menu:hover
+ul{
+  color:#1b589e;
+  cursor:pointer;
+}
+#menu:hover
+ul a{
+    color:red
+}
+#menu:hover
+ul li a{
+    color:rgb(172, 110, 16);
+    cursor:pointer;
+}
+#menu:hover
+h2{
+    font-size:50px;
+    color:rgb(77, 20, 235);
+}
+ul a{
+    color:black;
+}
+
+ul{
+    list-style: none;
+    display:inline-block;
+    float: right;
+    color:black;
+}
