@@ -1,10 +1,75 @@
+@font-face{
+    font-family: Marske;
+    src: url('Marske.ttf');
+    
+}
 body{
+    font-family: Arial;
     margin:40px;
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    background:url("week1/KakaoTalk_20190316_180504051.jpg") no-repeat;
+    background:url("KakaoTalk_20190331_222812861.jpg") no-repeat;
     background-size: 100%;
     padding:40px;
+    background-color: #0c0c0c;
+}
+p{
+    color:#ffffff5d;
+}
+
+#introduce{
+    font-size:25px;
+    margin: auto;
+    height: 185x;
+    border: 3px dotted rgba(82, 153, 233, 0.404);
+    padding: 20px;
+    margin-top: 3%;
+}
+
+.txt {
+    font-family: Marske;
+    color: #ffffff;
+    background:#000000;
+    font-size:80px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.txt::before {
+    font-family: Marske;
+    content: '2019 webprogramming';
+    position: absolute;
+    mix-blend-mode: difference;
+    filter: blur(3px);
+}
+.neon-wrapper {
+    display:inline-flex;
+    filter: brightness(200%);
+    overflow: hidden;
+}
+.gradient{
+    background: linear-gradient(114.5793141156962deg, rgba(6, 227, 250,1) 4.927083333333334%,rgba(229, 151, 64,1) 97.84374999999999%);
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height:100%;
+    mix-blend-mode: multiply;
+}
+
+.dodge {
+    background: radial-gradient(circle,rgb(179, 55, 17),black 35%) center / 25% 25%;
+    position: absolute;
+    top:-100%;
+    left:-100%;
+    right:0;
+    bottom:0;
+    mix-blend-mode: color-dodge;
+    animation: dodge-area 3s linear infinite;
+}
+@keyframes dodge-area {
+    to {
+        transform: translate(50%,50%);
+    }
 }

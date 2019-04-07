@@ -1,0 +1,66 @@
+body{
+    background: linear-gradient(195deg, #ce1212, #f07816, #787070);
+background-size: 600% 600%;
+
+-webkit-animation: AnimationName 30s ease infinite;
+-moz-animation: AnimationName 30s ease infinite;
+animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 9%}
+    50%{background-position:100% 92%}
+    100%{background-position:0% 9%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 9%}
+    50%{background-position:100% 92%}
+    100%{background-position:0% 9%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 9%}
+    50%{background-position:100% 92%}
+    100%{background-position:0% 9%}
+}
+
+#leesungkyung{
+    width:300px;
+    height:330px;
+    background:url('aaaa.jpg') no-repeat;
+    background-position: -170px -40px;
+}
+a.menu{
+    width:455px;
+    height:435px;
+    background:url('bbbb.jpg') no-repeat;
+    display:inline-block;
+}
+.lee{
+    background:url('aaaa.jpg') no-repeat;
+    display: inline-block;
+}
+
+#introduce{
+    background-color:rgb(167, 166, 166);
+    margin: auto;
+    height: 120px;
+    border: 3px dotted black;
+    padding: 20px;
+    margin-top: 3%;
+}
+
+#pic{
+    width:400px;
+}
+p{
+    color:rgb(138, 19, 19);
+}
+
+a.home{
+    width:110px;
+    height: 100px;
+    background: url('../home.png') no-repeat;
+    display: inline-block;
+  }
+
+
