@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=euc-kr">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <link rel='stylesheet' href='http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css'> 
+	<title>GroupProject</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <h6 id="email"></h6>
+    <button class="mdl-button mdl-js-button" id="btnLogout" onclick="pageMove()">
+        <a href="Login.html">
+        LOGOUT</a></button>
+       
+    
+    <br><br><br><br><br><br>
+    <h4>MAIN PAGE</h4><br><br>
+    <div>
+        <div class="grid__container">
+            <form action="" method="post" class="form form--login">
+                <div class="form__field">
+                    <label class="fontawesome-user" for="name"> NAME&nbsp;</label>
+                    <input id="name" type="text" class="form__input" >
+                </div>
+
+                <div class="form__field">
+                    <label class="fontawesome-lock" for="content">CONTENT</label>
+                    <input id="content" type="text" class="form__input">
+                </div>
+                <div class="form__field">
+                    <label class="fontawesome-lock" for="address">&nbsp;&nbsp;ADDRESS&nbsp;&nbsp;</label>
+                    <input id="address" type="text" class="form__input">
+                </div>
+                <div class="form__field">
+                    <label class="fontawesome-lock" for="number">&nbsp;&nbsp;PHONE NUMBER&nbsp;&nbsp;</label>
+                    <input id="number" type="text" class="form__input">
+                </div>
+                
+            </form>
+            <button onclick id="save" class="mdl-button mdl-js-button mdl-js-ripple-effect">
+                전송하기
+            </button>  
+        </div>
+   
+        <div class="grid__container">
+            <table id="empList" class="mdl-data-table mdl-js-data-table mdl-shadow--2dp" >
+                <tr id="yy" class="mdl-data-table__cell--non-numeric">
+                <th>▼ NAME</th>
+                <th>▼ CONTENT</th>
+                <th>▼ PHONE NUMBER</th>
+                <th>▼ ACTION</th>
+                </tr >
+            </table>
+        </div>
+    </div>
+
+
+ <script src="https://www.gstatic.com/firebasejs/4.5.2/firebase.js"></script>
+ <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+ <script src="http://code.jquery.com/jquery-1.9.1.js"></script> 
+ <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>  
+ <script src="main.js"></script>
+</body>
+</html>

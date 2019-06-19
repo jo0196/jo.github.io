@@ -1,33 +1,35 @@
+@import url(
+    'https://fonts.googleapis.com/css?family=Oleo+Script:400,700|Roboto:400,100,300,500,700'
+);
+
+  
 @font-face{
     font-family: Marske;
     src: url('Marske.ttf');
     
 }
 body{
+    margin:0%;
+    background:url("KakaoTalk_20190331_222812861.jpg") no-repeat  center center fixed;
+    background-size: 100%;
+    background-color: #0a0a0a;
+}
+
+footer h3{
+    padding-left:91%;
+}
+
+.top{
     font-family: Arial;
-    margin:40px;
+    margin:0px;
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    background:url("KakaoTalk_20190331_222812861.jpg") no-repeat;
     background-size: 100%;
     padding:40px;
     background-color: #0c0c0c;
 }
-p{
-    color:#ffffff5d;
-}
-
-#introduce{
-    font-size:25px;
-    margin: auto;
-    height: 185x;
-    border: 3px dotted rgba(82, 153, 233, 0.404);
-    padding: 20px;
-    margin-top: 3%;
-}
-
 .txt {
     font-family: Marske;
     color: #ffffff;
@@ -57,7 +59,6 @@ p{
     height:100%;
     mix-blend-mode: multiply;
 }
-
 .dodge {
     background: radial-gradient(circle,rgb(179, 55, 17),black 35%) center / 25% 25%;
     position: absolute;
@@ -73,3 +74,98 @@ p{
         transform: translate(50%,50%);
     }
 }
+
+iframe {
+    border: none;
+    width: 99%;
+    height: 700px
+}
+
+hr{
+    border:inset 10px;
+    height: 20px;
+}
+
+
+/*메뉴*/
+
+
+ul h3{
+    color:darkcyan;
+    font-size:25px;
+    height: 40px;
+}
+
+
+.link-effect-1{
+    width: 15%; 
+    height: 700px; 
+    float:left;
+}
+
+
+.link-effect-1 {
+    text-align: left;
+  }
+  .link-effect-1 a {
+    -moz-perspective: 900px;
+    -webkit-perspective: 900px;
+    perspective: 900px;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    line-height: 44px;
+  }
+  .link-effect-1 a span {
+    position: relative;
+    padding: 0 14px;
+    width:50%;
+    background: #797878;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    *zoom: 1;
+    *display: inline;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    -moz-transform-origin: 50% 0 50%;
+    -ms-transform-origin: 50% 0 50%;
+    -webkit-transform-origin: 50% 0 50%;
+    transform-origin: 50% 0 50%;
+    -moz-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  }
+  .link-effect-1 a span::before {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #565555;
+    content: attr(data-hover);
+    -moz-transition: background 0.3s;
+    -o-transition: background 0.3s;
+    -webkit-transition: background 0.3s;
+    transition: background 0.3s;
+    -moz-transform: rotateX(-90deg);
+    -ms-transform: rotateX(-90deg);
+    -webkit-transform: rotateX(-90deg);
+    transform: rotateX(-90deg);
+    -moz-transform-origin: 50% 0 50%;
+    -ms-transform-origin: 50% 0 50%;
+    -webkit-transform-origin: 50% 0 50%;
+    transform-origin: 50% 0 50%;
+    padding: 0 14px;
+  }
+  .link-effect-1 a:hover span, .link-effect-1 a:focus span {
+    -moz-transform: rotateX(90deg) translateY(-22px);
+    -ms-transform: rotateX(90deg) translateY(-22px);
+    -webkit-transform: rotateX(90deg) translateY(-22px);
+    transform: rotateX(90deg) translateY(-22px);
+  }
+  .link-effect-1 a:hover span::before, .link-effect-1 a:focus span::before {
+    background: #884545;
+  }

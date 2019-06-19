@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=euc-kr">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css"> 
+	<title>GroupProject</title>
+    <link rel="stylesheet" href="Login.css">
+</head>
+
+<body class="align">
+  <div class="site__container">
+    <div class="grid__container">
+        <h4>LOGIN PAGE</h4>
+        <div id="loginForm">
+            <form action="" method="post" class="form form--login">
+                <div class="form__field">
+                    <label class="fontawesome-user" for="txtEmail">Username</label>
+                    <input id="txtEmail" type="text" class="form__input" >
+                </div>
+
+                <div class="form__field">
+                    <label class="fontawesome-lock" for="txtPass">&nbsp;Password</label>
+                    <input id="txtPass" type="password" class="form__input">
+                </div>
+            </form>
+      </div>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button class="mdl-button mdl-js-button" id="btnLogin" onclick="pageMove()" >LOGIN</button>
+        
+        <button class="mdl-button mdl-js-button" id="btnSignUp" >SIGNUP</button>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button class="mdl-button mdl-js-button" id="bbbb">LOGOUT</button>
+        
+        
+      
+    </div>
+</div>
+
+    
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
+    <script src="Login.js"></script>
+</body>
+</html>

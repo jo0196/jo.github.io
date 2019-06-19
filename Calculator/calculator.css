@@ -1,7 +1,22 @@
 body{
+  /*
   background: linear-gradient(270deg, #16b28a, #11634e, #3f7466);
 background-size: 600% 600%;
-
+*/
+text-align: center;
+-webkit-box-align: center;
+-webkit-align-items: center;
+    -ms-flex-align: center;
+        align-items: center;
+display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: horizontal;
+-webkit-box-direction: normal;
+-webkit-flex-direction: row;
+    -ms-flex-direction: row;
+        flex-direction: row;
 -webkit-animation: AnimationName 30s ease infinite;
 -moz-animation: AnimationName 30s ease infinite;
 animation: AnimationName 30s ease infinite;
@@ -21,6 +36,7 @@ animation: AnimationName 30s ease infinite;
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
+
 
 a.home{
   width:110px;
@@ -77,10 +93,10 @@ input{
 
 
 button{
-  background-color: rgb(34, 167, 255);
+  background-color: rgb(255, 152, 34);
 }
 button:hover {
-  background-color: #1276f9;
+  background-color: #f98212;
 }
 button:active {
   background-color: #EB7016;

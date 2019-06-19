@@ -1,6 +1,4 @@
-data=[
-  
-];
+data=[];
 
 window.onload = init;
 
@@ -47,7 +45,7 @@ showarray();
 }
 
 function arrayname(){
-if(NAME == 1){
+    if(NAME == 1){
     NAME = 0;
     data.sort(function(a, b){
         var x = a.NAME.toLowerCase();
@@ -56,7 +54,8 @@ if(NAME == 1){
         if (x > y) {return 1;}
         return 0;
     });
-}else{
+}
+else{
     NAME = 1;
     data.sort(function(a, b){
         var x = b.NAME.toLowerCase();
@@ -90,6 +89,7 @@ for (i = 0; i < data.length; i++) {
     td1 = document.createElement("td");
     td2 = document.createElement("td");
     td3 = document.createElement("td");
+    
     input1 = document.createElement("input");
     input2 = document.createElement("input");
     

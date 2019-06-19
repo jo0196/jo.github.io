@@ -1,0 +1,26 @@
+.error{
+    color:violet;
+}
+
+.success{
+    color:green;
+}
+
+body{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 0.1em;
+}
+
+a:hover{
+    text-decoration: none;
+    color:red;
+
+}
