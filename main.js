@@ -10,29 +10,18 @@ window.onload = function(){
       };
       firebase.initializeApp(config);
     
-      firebase.auth().onAuthStateChanged(firebaseUser =>{
-        var user = firebase.auth().currentUser;
-        var mail = user.email;
-        document.getElementById("email").innerHTML = mail;
-    });
-    
-        btnLogout.addEventListener("click" , e=>{
-        firebase.auth().signOut();
-        });
-    
+ 
       document.getElementById("save").onclick =function(){
         
             var name = document.getElementById("name");
             var content = document.getElementById("content");
             var number = document.getElementById("number");
-            var address = document.getElementById("address");
             var ref = firebase.database().ref("anything");
       
             ref.push().set({
                 name : name.value,
                 content: content.value,
                 number: number.value,
-                address: address.value,
             });
       
             name.value="";
@@ -49,12 +38,7 @@ window.onload = function(){
             li.id = snap.key;
             li.innerHTML = 
             '<tr>'+
-            '<th>'+
-            "<form action=\"f2.php\" method=\"post\">"+
-            "<input type=\"hidden\" value=\""+snap.child("address").val()+"\" name=\"name\"></input>"+
-            "<input type=\"hidden\" value=\""+snap.child("name").val()+"\" name=\"address\"></input>"+
-            "<input type=\"submit\" value=\""+snap.child("name").val()+"\"></input></form>"+
-            '</th>'+
+            '<th>'+snap.child("name").val()+'</th>'+
             '<th>'+snap.child("content").val()+'</th>'+
             '<th>'+snap.child("number").val()+'</th>'+
             '<th>'+"<button class='mdl-button mdl-js-button' onclick='deleteref(this)'>삭제</button>"+'</th>'+'</tr>';
