@@ -53,7 +53,7 @@ body {
       }
       .form--login label {
         background-color:#313f67;
-        font-color:white;
+        color:white;
         border-bottom-right-radius: 0;
         border-top-right-radius: 0;
         padding-left: 1.25rem;
