@@ -37,13 +37,14 @@ body {
     margin: 0;
     min-height: 100%;
   }
-    .form input[type="password"], .form input[type="text"], .form input[type="submit"] {
+    .form input[type="password"], .form input[type="text"], .form input[type="submit"], .form input[type="number"] {
         width: 100%;
       }
       .form--login {
         color: #000000;
       }
       .form--login label,
+      .form input[type="number"],
       .form--login input[type="text"],
       .form--login input[type="password"],
       .form--login input[type="submit"] {
