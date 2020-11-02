@@ -57,12 +57,12 @@ body {
         padding-left: 1.25rem;
         padding-right: 1.25rem;
       }
-      .form--login input[type="text"], .form--login input[type="password"] {
+      .form--login input[type="text"], .form--login input[type="password"], .form--login input[type="number"] {
         background-color: #ffffff;
         border-bottom-left-radius: 0;
         border-top-left-radius: 0;
       }
-      .form--login input[type="text"]:focus, .form--login input[type="text"]:hover, .form--login input[type="password"]:focus, .form--login input[type="password"]:hover {
+      .form--login input[type="text"]:focus, .form--login input[type="text"]:hover, .form--login input[type="password"]:focus, .form--login input[type="password"]:hover, .form--login input[type="number"], .form--login input[type="number"]:hover {
         background-color: #e9f3fe;
       }
 
