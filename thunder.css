@@ -64,7 +64,7 @@ body {
         border-bottom-left-radius: 0;
         border-top-left-radius: 0;
       }
-      .form--login input[type="text"]:focus, .form--login input[type="text"]:hover, .form--login input[type="password"]:focus, .form--login input[type="password"]:hover, .form--login input[type="number"], .form--login input[type="number"]:hover {
+      .form--login input[type="text"]:focus, .form--login input[type="text"]:hover, .form--login input[type="password"]:focus, .form--login input[type="password"]:hover, .form--login input[type="number"]:focus, .form--login input[type="number"]:hover {
         background-color: #e9f3fe;
       }
 
