@@ -117,3 +117,43 @@ body {
     #btnLogout{
       margin : 0 100px;
     }
+    textarea{
+		width:25rem;
+		height:10rem;
+	}
+	.ip{
+		outline: 0;
+		text-decoration: none;
+		background-color: transparent !important;
+		color: gray;
+	}
+	.ip:hover, .ip:focus{
+		text-decoration: underline;
+	}
+	.tt{
+		border-radius: 0.25rem;
+		padding: 1rem;
+		background-color:#313f67;
+		color:white;
+		border-bottom-right-radius: 0;
+		border-top-right-radius: 0;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
+		width:50rem;
+	}
+	#st{
+		color:black;
+		background-color:skyblue;
+	}
+	#ds{
+		color:yellow;
+		background: url('https://github.com/jo0196/jo0196.github.io/blob/master/a.jpg?raw=true') no-repeat center center fixed; 
+	    -webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	    width:46.5rem;
+	    height:30rem;
+		margin: 0;
+		min-height: 100%;
+	}
