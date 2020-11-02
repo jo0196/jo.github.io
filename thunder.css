@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    height: 100%;
+  }
+
+a {
+    color: rgb(94, 94, 94);
+    outline: 0;
+    text-decoration: none;
+  }
+  a:focus, a:hover {
+    text-decoration: underline;
+  }
+
+  input {
+    border: 0;
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    -webkit-transition: background-color .3s;
+            transition: background-color .3s;
+  } 
+
+body {
+    background: url('image2.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #606468;
+    font: 400 0.875rem/1.5 "Open Sans", sans-serif;
+    margin: 0;
+    min-height: 100%;
+  }
+    .form input[type="password"], .form input[type="text"], .form input[type="submit"] {
+        width: 100%;
+      }
+      .form--login {
+        color: #000000;
+      }
+      .form--login label,
+      .form--login input[type="text"],
+      .form--login input[type="password"],
+      .form--login input[type="submit"] {
+        border-radius: 0.25rem;
+        padding: 1rem;
+      }
+      .form--login label {
+        background-color: #d0e4fe;
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+      }
+      .form--login input[type="text"], .form--login input[type="password"] {
+        background-color: #ffffff;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+      }
+      .form--login input[type="text"]:focus, .form--login input[type="text"]:hover, .form--login input[type="password"]:focus, .form--login input[type="password"]:hover {
+        background-color: #e9f3fe;
+      }
+
+      .form__field {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        margin-bottom: 1rem;
+      }
+      .form__input {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+      }
+      
+      .hidden {
+        border: 0;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+      }
+      
+      .text--center {
+        text-align: center;
+      }
+      
+      .grid__container {
+        margin: 0 50px;
+        max-width: 25rem;
+        width: 90%;
+        float:left;
+      }
+
+      #save{
+          margin: 0 90px;
+      }
+
+      h4{
+          margin : 0 50px;
+      }
+
+      h6{
+        margin : 0 50px;
+    }
+
+    #btnLogout{
+      margin : 0 100px;
+    }
