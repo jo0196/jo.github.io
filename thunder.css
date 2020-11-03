@@ -98,7 +98,7 @@ body {
       }
       
       .grid__container {
-        margin: 0 50px;
+        margin: 5 50px;
         max-width: 46rem;
         width: 90%;
         float:left;
@@ -159,5 +159,5 @@ body {
 	}
 	#map{
 		width:50rem;
-		height:40rem;
+		height:50rem;
 	}
