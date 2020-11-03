@@ -180,7 +180,7 @@ body {
 		color: gary;
 		outline: 0;
 		text-decoration: none;
-		backgroun-color:none;
+		backgroun-color:red;
 	}
   .del:focus, .del:hover {
     text-decoration: underline;
