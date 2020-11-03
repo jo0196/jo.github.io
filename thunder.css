@@ -104,6 +104,12 @@ body {
         float:left;
       }
 
+      .grid{
+	margin: 5px 50px;
+        max-width: 46rem;
+        width: 90%;
+      }
+
       #save{
           margin: 0 90px;
       }
@@ -136,10 +142,12 @@ body {
 		background-color:#313f67;
 		color:white;
 		border-bottom-right-radius: 0;
+		margin-right:10px;
 		border-top-right-radius: 0;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
 		width:50rem;
+		float:left;
 	}
 	#st{
 		color:black;
@@ -159,5 +167,5 @@ body {
 	}
 	#map{
 		width:50rem;
-		height:50rem;
+		height:48rem;
 	}
