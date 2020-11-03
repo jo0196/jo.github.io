@@ -108,6 +108,7 @@ body {
 	margin: 5px 50px;
         max-width: 46rem;
         width: 90%;
+	float:left;
       }
 
       #save{
@@ -167,5 +168,6 @@ body {
 	}
 	#map{
 		width:50rem;
-		height:48rem;
+		height:37.5rem;
+		margin-top: 20px;
 	}
