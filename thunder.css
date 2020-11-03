@@ -175,3 +175,12 @@ body {
 		height:37.5rem;
 		margin-top: 20px;
 	}
+
+	.del{
+		color: gary;
+		outline: 0;
+		text-decoration: none;
+	}
+  .del:focus, .del:hover {
+    text-decoration: underline;
+	}
