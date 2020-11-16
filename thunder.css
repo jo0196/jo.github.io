@@ -31,7 +31,7 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: 700px;
     color: #606468;
     font: 400 0.875rem/1.5 "Open Sans", sans-serif;
     margin: 0;
