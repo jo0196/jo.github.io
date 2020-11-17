@@ -105,7 +105,7 @@ body {
       
       .grid__container {
         margin: 5px 50px;
-        max-width: 46rem;
+        max-width: 20rem;
         width: 90%;
         float:left;
       }
