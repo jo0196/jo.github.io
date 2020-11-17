@@ -28,6 +28,7 @@ a {
 
 body {
     background: url('suwonCI.png') no-repeat center center fixed; 
+	background-color:#bebebe;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
